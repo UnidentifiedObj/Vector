@@ -16,10 +16,13 @@ public:
 
     Vector& operator=(const Vector& other);
 
+    bool operator==(const Vector& other);	
+
     T& operator[](size_t index);
     const T& operator[](size_t index) const;
 
     void push_back(const T& value);
 
     size_t getSize() const;
+
 };

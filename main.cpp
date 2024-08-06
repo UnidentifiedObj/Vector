@@ -23,5 +23,11 @@ int main() {
     }
     std::cout << std::endl;
 
+    if (vec == vec2){
+	std::cout << "Vectors are equal"<<std::endl;
+    }else{
+        std::cout<<"Vectors are not equal"<<std::endl;
+    }
+
     return 0;
 }
